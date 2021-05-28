@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="table" id="device">
+    <view class="th">
+      <view class="td">设备id</view>
+      <view class="td">协议</view>
+      <view class='td'>在线状态</view>
+    </view>
+    <view class="tr" >
+      <view class="td">{{device_id}}</view>
+      <view class="td">{{trans_protocol}}</view>
+      <view class="td {{link_staue ? 'online' : 'off_line'}}">{{link_staue}}</view>
+    </view>
+  </view>
+  <button class="blue" bindtap="getDeviceStaue">update</button>
+</view>
