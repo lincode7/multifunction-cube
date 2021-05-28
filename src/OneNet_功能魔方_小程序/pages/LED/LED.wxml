@@ -1,0 +1,37 @@
+<!--pages/LED/LED.wxml-->
+<view class="title">
+    <text>LED</text>
+</view>
+
+<view class="box left_right">
+    <view class="left led red {{redledstatus?'':'off_line'}}"></view>
+    <view class="mid"><text>Red LED</text></view>
+    <switch class="right" type="switch" checked="{{redledstatus}}" bindchange="redledchange"></switch>
+</view>
+
+<view class="box left_right">
+    <view class="led green left {{greenledstatus?'':'off_line'}}"></view>
+    <text class="mid">Green LED</text>
+    <switch class="right" type="switch" checked="{{greenledstatus}}" bindchange="greenledchange"></switch>
+</view>
+
+<view class="box left_right">
+    <view class="led yellow left {{yellowledstatus?'':'off_line'}}"></view>
+    <text class="mid">Yellow LED</text>
+    <switch class="right" type="switch" checked="{{yellowledstatus}}" bindchange="yellowledchange"></switch>
+</view>
+
+<view class="box left_right">
+    <view class="led blue left {{blueledstatus?'':'off_line'}}"></view>
+    <text class="mid">Blue LED</text>
+    <switch class="right" type="switch" checked="{{blueledstatus}}" bindchange="blueledchange"></switch>
+</view>
+
+<view class="box left_right">
+    <view class="led left {{all_staue?'':'off_line'}}"></view>
+    <text class="mid">一键开关</text>
+    <switch class="right" type="switch" checked="{{all_staue}}" bindchange="allchange"></switch>
+</view>
+
+
+

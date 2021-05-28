@@ -1,0 +1,19 @@
+<!--pages/timer/timer.wxml-->
+
+<view class="container">
+    <view class="table" id="device">
+        <view class="tr">
+            <view class="td blue"><input value="{{h}}" bindtap="input_h"/></view>
+            <view class="td blue">h</view>
+        </view>
+        <view class="tr">
+            <view class="td blue"><input value="{{m}}" bindtap="input_m"/></view>
+            <view class="td blue">m</view>
+        </view>
+        <view class="tr">
+            <view class="td blue"><input value="{{s}}" bindtap="input_s"/></view>
+            <view class="td blue">s</view>
+        </view>
+    </view>
+    <button bindtap="">set</button>
+</view>

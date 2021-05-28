@@ -1,0 +1,12 @@
+<!--pages/sensors/sensors.wxml-->
+
+<view class="title">
+    <text>menu</text>
+</view>
+<view class="curtop">
+    <image src="{{img}}" mode="top" />
+</view>
+<view class="horizontal_divLine"></view>
+<view class="box" wx:for="{{showdata}}">
+    {{item.id}} : {{item.current_value}}
+</view>
