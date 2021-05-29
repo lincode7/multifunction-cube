@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "adc.h": "c",
+        "mytask.h": "c",
+        "framework.h": "c"
+    }
+}

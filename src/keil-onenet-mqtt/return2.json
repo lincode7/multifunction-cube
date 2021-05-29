@@ -1,0 +1,30 @@
+{
+    "errno": 0,
+    "data": [
+        {
+            "update_at": "2021-04-25 14:49:24",
+            "id": "温度",
+            "create_time": "2021-04-20 18:59:58",
+            "current_value": 0
+        },
+        {
+            "update_at": "2021-04-25 14:49:24",
+            "id": "湿度",
+            "create_time": "2021-04-20 18:59:58",
+            "current_value": 0
+        },
+        {
+            "update_at": "2021-04-25 14:49:24",
+            "id": "红色LED",
+            "create_time": "2021-04-20 18:59:58",
+            "current_value": 0
+        },
+        {
+            "update_at": "2021-04-25 14:49:24",
+            "id": "绿色LED",
+            "create_time": "2021-04-20 18:59:58",
+            "current_value": 0
+        }
+    ],
+    "error": "succ"
+}

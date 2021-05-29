@@ -1,0 +1,39 @@
+/* pages/LED/LED.wxss */
+page{
+    width: 100%;
+    height: 100%;
+  
+    background-color: #36b394;
+  }
+.left_right {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 10%;
+    overflow: hidden;
+}
+.left {
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+.mid {
+    height: 30px;
+    width: 150px;
+    display: flex;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.right {
+    height: 30px;
+    display: flex;
+}
+.led {
+    border-radius: 50%;
+}
+
+
+
+

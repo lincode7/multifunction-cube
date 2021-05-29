@@ -1,0 +1,27 @@
+top
+x 0.0
+y 0.0
+z 1.2
+back
+x 0.0
+z -1.1
+y 0.12 0.22
+font
+x 0.0
+y 1.1
+z 0.22
+left
+x 1.1
+y 0.0
+z 0.0 0.1
+right
+x -1.1
+y 0.1
+z 0.0
+bottom
+x -0.1
+y -0.1
+z -1.2
+
+{"id":"%s","datapoints":[{"value":%s}]}
+

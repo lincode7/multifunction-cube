@@ -1,0 +1,33 @@
+.\output\framework.o: framework\framework.c
+.\output\framework.o: framework\framework.h
+.\output\framework.o: .\driver\inc\hwtimer.h
+.\output\framework.o: .\core\stm32f10x.h
+.\output\framework.o: .\core\core_cm3.h
+.\output\framework.o: D:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\framework.o: .\core\system_stm32f10x.h
+.\output\framework.o: .\core\stm32f10x_conf.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_adc.h
+.\output\framework.o: .\core\stm32f10x.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_bkp.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_can.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_cec.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_crc.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_dac.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_dbgmcu.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_dma.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_exti.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_flash.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_fsmc.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_gpio.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_i2c.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_iwdg.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_pwr.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_rcc.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_rtc.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_sdio.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_spi.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_tim.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_usart.h
+.\output\framework.o: .\fwlib\inc\stm32f10x_wwdg.h
+.\output\framework.o: .\fwlib\inc\misc.h
+.\output\framework.o: D:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
